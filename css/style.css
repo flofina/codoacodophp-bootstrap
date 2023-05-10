@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;500;600;700&display=swap');
 
 *{
-margin: 0;
-padding: 0;
-font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
 }
 
 a{
@@ -80,17 +80,35 @@ a{
     background-color: transparent;
 }
 
+.btn-light a:hover{
+    color: #f9fafb;
+    background-color: transparent;
+}
+
+.btn-light:hover{
+    background-color: #f9fafb57;
+    border-color: #f9fafb;
+  }
+
 .btn-success a{
     color: #e8f8f9;
     background-color: transparent;
 }
 
-.oradores{
-    padding-top: 60px;
+.section{
+    padding: 60px;
+}
+
+.section span{
+    font-size: 0.7rem;
+}
+
+.badge a{
+    color: #fff;
 }
 
 .lugarFecha{
-    padding: 0;
+    padding: 60px 0 0 0;
 }
 
 .lugarFechaContainer{
@@ -105,9 +123,9 @@ a{
 .btn-verde {
     background-color: #77a427;
     border-color: #77a427;
-  }
+}
 
-  .centrarForm{
+.centrarForm{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,54 +136,6 @@ a{
     background-color: #353a40;
     color: #e8f8f9;
     justify-content: space-between;
-}
-
-
-/* 
-
-
-
-
-.formulario p{
-    margin-top: 20px;
-}
-
-.formulario h5{
-    text-align: start;
-    margin-top: 5px;
-    font-weight: 300;
-}
-
-.form{
-    margin-top: 20px;
-    flex-direction: column;
-}
-
-.formInputs{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.input{
-    width: 300px;
-    height: 25px;
-    justify-content: space-between;
-    padding-left: 10px;
-}
-
-.textarea{
-    width: 650px;
-    padding: 10px;
-    font-size: 0.9rem;
-}
-
-.form button{
-    background-color: #77a427;
-    width: 100%;
-    height: 40px;
-    margin: 20px 0;
-    font-weight: 400;
 }
 
 .arrow{
@@ -183,216 +153,3 @@ a{
     color: #899293;
 }
 
-.footer{
-    background-color: #1e516e;
-    color: #e8f8f9;
-    padding: 15px 10%;
-}
-
-.footer ul{
-    list-style-type: none;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer li{
-    font-size: 0.8rem;
-    font-weight: 600;
-    width: 100px;
-    text-align: center;
-}
-
-.footer a{
-    color: #e8f8f9;
-} */
-
-/*TABLET*/
-
-/* @media screen and (min-width:768px) and (max-width:1023px) {
-    .nav{
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        padding: 15px 5px;
-    }
-
-    .logo{
-        width: 100vh;
-        justify-content: center;
-    }
-    
-    .menu{
-        width: 100vh;        
-    }
-
-    .menu ul{
-        justify-content: space-around;
-    }
-   
-    .menu li{
-        margin-left: 0;
-    }
-
-    .cardContainer{
-        flex-wrap: wrap;
-        margin: 50px;
-    }
-
-    .lugarFecha{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .imgLugar{
-        border: none;
-        width: 100vw;
-    }
-
-    .lugarFechaInfo{
-        width: 100vw;
-    }
-
-    .footer ul{
-        font-size: 0.7 rem;
-    }
-} */
-
-/*CELULAR*/
-
-/* @media screen and (max-width: 767px){
-    .nav{
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        padding: 15px 5px;
-    }
-
-    .logo{
-        width: 100%;
-        justify-content: center;
-    }
-
-    .logo img{
-        height: 25px;
-        margin-right: 0px;
-    }
-
-    .logo h2{
-        font-size: 0.8rem;
-        width: auto;
-    }
-    
-    .menu{
-        width: 100vh;
-        margin: 5px 10%;
-    }
-   
-    .menu ul{
-        height: 25px;
-        margin-left: 0px;
-        justify-content: space-between;
-    }
-    
-    .menu li{
-        margin-left: 0;
-        font-size: 0.8rem;
-        font-weight: 600;
-        text-align: center;
-        width: 60px; 
-    }
-
-    .conferencia img{
-        height: 100vh;
-        width: auto;
-    }
-
-    .confInfo{
-        top: 30%;
-        right: 25%;
-        flex-wrap: wrap;
-        width: 350px;
-        text-align: center; 
-    }
-    
-    .button{
-        margin: 5px 0 10px 0px;
-        width: 300px;
-        justify-content: center;
-    }
-    
-   .oradores{
-        padding-top: 100px;
-    }
-    
-    .tituloSection{
-        margin-top: 10px;
-    }
-    
-    .cardContainer{
-        flex-wrap: wrap;
-    }
-    
-    .lugarFecha{
-        flex-direction: column;
-        justify-content: center;
-        height: auto;
-    }
-    
-    .imgLugar{
-        width: 100%;
-        border: none;
-    }
-    
-    .lugarFechaInfo{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .lugarFechaInfo p{
-        margin: 10px 30px;
-    }
-
-    .buttonFecha{
-        margin: 15px 0;
-        width: 300px;
-    }
-    .formulario p, .textarea{
-        width: 300px;
-    }
-
-    .formInputs{
-        flex-direction: column;
-    }
-
-    .input{
-        margin-top: 20px;
-    }
-    
-    .arrow{
-        display: none;
-    }
-    
-    .footer{
-        padding: 10px;
-    }
-
-    .footer ul{
-        flex-direction: column;
-        align-items: space-between;
-    }
-    
-    .footer li{
-        padding: 5px;
-        width: 100%;
-    }
-    
-    .footer a{
-        color: #e8f8f9;
-        font-weight: 400;
-    }
-
-} */
