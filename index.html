@@ -15,7 +15,7 @@
 	<body>
 		<header>
 			<nav class="navbar fixed-top">
-				<div class="container flex-row">
+				<div class="nav-center container flex-row">
 					<a class="navbar-brand align-items-center" target="_blank" href="https://buenosaires.gob.ar/educacion/codo-codo-40">
 					<img
 						src="./assets/img/cac-logo.svg"
@@ -27,7 +27,7 @@
 					<h3>Conf Bs As</h3>
 					</a>
 					
-					<ul class="nav justify-content-end">
+					<ul class="nav justify-content-center">
 						<li class="nav-item">
 							<a
 							class="nav-link active" 
@@ -71,10 +71,10 @@
 			</nav>
 		</header>
 
-		<main id="conferencia">
-			<div>
+		<main id="conferencia" class="main">
+			<div class="h-100">
 				<div id="carouselExampleControls" class="carousel slide opacity" data-bs-ride="carousel">
-					<div class="carousel-inner vh-100">
+					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img src="./assets/img/ba1.jpg" class="d-block w-100" alt="imagen del Palacio de Aguas - Buenos Aires">
 						</div>
@@ -108,10 +108,10 @@
 		</main>
 
 		<section id="oradores" class="section">
-			<h2 class="text-center text-uppercase fw-er mb-5"><span>Conoce a los</span> <br />oradores</h2>
-			<div class="cardContainer row row-cols-1 row-cols-md-3 g-4 justify-content-evenly ms-sm-5 me-sm-5">
-				<div class="col-3">
-					<div class="card h-100">
+			<h2 class="text-center text-uppercase mb-2"><span>Conoce a los</span> <br />oradores</h2>
+			<div class="card-group justify-content-around row mx-5">
+				<div class="col-auto">
+					<div class="card mt-5">
 						<img src="./assets/img/steve.jpg" class="card-img-top" alt="Steve Jobs" />
 						<div class="card-body">
 							<span class="badge bg-warning text-dark">
@@ -124,7 +124,7 @@
 									React
 								</a>
 							</span>
-							<h5 class="card-title">Steve Jobs</h5>
+							<h5 class="card-title mt-2">Steve Jobs</h5>
 							<p class="card-text">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
 								enim, eaque minus saepe nemo quidem reprehenderit, similique est
@@ -134,8 +134,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3">
-					<div class="card h-100">
+				<div class="col-auto">
+					<div class="card mt-5">
 						<img src="./assets/img/bill.jpg" class="card-img-top" alt="Bill Gates" />
 						<div class="card-body">
 							<span class="badge bg-warning text-dark">
@@ -148,7 +148,7 @@
 									React
 								</a>
 							</span>
-							<h5 class="card-title">Bill Gates</h5>
+							<h5 class="card-title mt-2">Bill Gates</h5>
 							<p class="card-text">
 								Lesciunt praesentium accusantium earum nam sed ea id autem at
 								facere, commodi numquam esse reprehenderit. Sunt saepe fugiat,
@@ -157,8 +157,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3">
-					<div class="card h-100">
+				<div class="col-auto">
+					<div class="card mt-5">
 						<img src="./assets/img/ada.jpeg" class="card-img-top" alt="Ada Lovelace" />
 						<div class="card-body">
 							<span class="badge bg-secondary">
@@ -167,7 +167,7 @@
 							<span class="badge bg-danger">
 								Startups
 							</span>
-							<h5 class="card-title">Ada Lovelace</h5>
+							<h5 class="card-title mt-2">Ada Lovelace</h5>
 							<p class="card-text">
 								Aliquid praesentium quaerat eveniet voluptatum beatae numquam,
 								reprehenderit autem quae illum impedit, tempore ex consectetur?
@@ -197,7 +197,7 @@
 		</section>
 
 		<section id="formulario" class="section">
-			<h2 class="text-center text-uppercase fw-er mb-5"><span>Conviertete en un</span><br/>orador</h2>
+			<h2 class="text-center text-uppercase mb-2"><span>Conviertete en un</span><br/>orador</h2>
 			<p class="text-center">Anotate como orador para dar una charla ignite. Contanos de qué querés hablar!</p>
 			<div class="centrarForm container-fluid">
 				<form class="form-group col-6">
@@ -240,7 +240,7 @@
 
 		<footer class="footer">
 			<div class="container flex-row">
-				<ul class="nav nav-fill justify-content-evenly">
+				<ul class="nav nav-fill nav-footer justify-content-evenly">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Preguntas frecuentes</a>
 					</li>

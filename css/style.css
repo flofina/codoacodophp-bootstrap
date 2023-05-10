@@ -103,6 +103,10 @@ a{
     font-size: 0.7rem;
 }
 
+.card{
+    width: 300px;
+    height: auto;
+}
 .badge a{
     color: #fff;
 }
@@ -120,7 +124,7 @@ a{
     padding: 0;
 }
 
-.btn-verde {
+.btn-verde{
     background-color: #77a427;
     border-color: #77a427;
 }
@@ -153,3 +157,96 @@ a{
     color: #899293;
 }
 
+@media (max-width: 1200px) {
+    .lugarFechaContainer{
+        flex-direction: column;
+    }
+    
+    .lugarFechaContainer .col-6{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar > .container {
+        justify-content: center;
+    }
+    
+    .nav-center a{
+        flex-grow: none;
+    }
+
+    .section{
+        padding: 30px;
+    }
+
+    .confInfo{
+        top: 25%;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    .navbar > .container {
+        justify-content: center;
+        max-width: 750px;
+    }
+
+    .nav a{
+        font-size: 0.9rem;
+    }
+
+    .section{
+        padding: 30px;
+    }
+
+    .confInfo{
+        top: 20%;
+        font-size:medium;
+    }    
+  }
+
+  @media (max-width: 767px) {
+    .navbar > .container {
+        justify-content: center;
+        max-width: 750px;
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand img{
+        height: 30px;
+    }
+
+    .navbar-brand h3{
+        display: none;
+    }
+
+    .confInfo{
+        font-size: 0.9rem;
+        top: 12%;
+        right: 22%;
+        color: #e8f8f9;
+        width: 400px;
+        height: auto;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .lugarFechaInfo{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .btn-light{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .arrow{
+        display: none;
+    }
+
+    .nav-footer{
+        font-size: 0.9rem;
+    }
+  }
