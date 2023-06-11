@@ -157,6 +157,22 @@ a{
     color: #899293;
 }
 
+.comprarTickets{
+    padding: 60px;
+}
+
+.comprarCards{
+    height: 220px;
+    border-radius: 0;
+}
+
+.form-control[readonly] {
+    color: #062e49;
+    background-color: #6eb1de5c;
+    opacity: 1;
+    font-size: 0.9rem;
+  }
+
 @media (max-width: 1200px) {
     .lugarFechaContainer{
         flex-direction: column;
@@ -166,7 +182,6 @@ a{
         width: 100%;
     }
 }
-
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .navbar > .container {
@@ -248,5 +263,13 @@ a{
 
     .nav-footer{
         font-size: 0.9rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .card-group > .card + .card {
+      border-left: currentColor;
+      border-left-width: 1px;
+      border-left-style: solid;
     }
   }
